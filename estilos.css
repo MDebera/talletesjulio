@@ -47,7 +47,7 @@ html {height:100%;
 
 
 /* - - - - android landscape - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-@media only screen and (width: 837px) and  (height: 540px) 
+@media only screen and (width: 960px) and  (height: 540px) 
 	{
 	  html {height:360px;
       		background-color: rgb(255,0,0);
@@ -88,7 +88,7 @@ html {height:100%;
 
 
 					/* - - - - android portrait - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-					@media only screen and (width: 540px) and  (height: 837px) 
+					@media only screen and (width: 540px) and  (height: 960px) 
 						{
 						  html {height:360px;
 					      		background-color: rgb(255,0,0);
