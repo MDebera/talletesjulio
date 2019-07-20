@@ -1,0 +1,54 @@
+
+html {height:100%;
+		}
+
+
+@media only screen and (min-width: 361px) and (max-width: 10000px) 
+	{
+
+
+		.encabezado {max-width: 980px; border: 1px solid red;
+					position: relative; border: 1px dashed black;
+					margin:auto;
+					height:500px;
+					background-image: url("images/lugar.jpg");
+					}
+
+		.navegador {max-width: 980px;border: 3px solid yellow;
+					height: 40px;
+					position: relative;
+					margin:auto;
+					}
+
+		.sub {width: 180px; border: 1px solid green;
+				float: left;
+				font-size:2rem;
+				color: gray;
+				text-align: center;}
+
+		.contacto {max-width: 980px;border: 2px solid blue;
+					position: relative;
+					margin:auto;
+					text-align: center;
+					}
+		}
+
+
+
+
+
+@media only screen and (width: 360px) 
+	{
+		.sub {width: 180px; border: 1px solid green;
+		/*FLOAT: left; desflotemolo asi se centra*/
+		/*si le sacás el float acá, igulal lo hereda del nivel default superior...*/
+		/*debes si o si declarar un mediaquery para limitar el estulo de arriba*/
+		font-size:2rem;
+		color: red;
+		text-align: center;}
+
+
+
+
+		
+	}
