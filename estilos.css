@@ -47,7 +47,7 @@ html {height:100%;
 
 
 /* - - - - android landscape - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-@media only screen and (device-width: 960px) and (device-height: 540px) 
+@media only screen and (device-width: 640px) and (device-height: 360px) 
 	{
 	  html {height:360px;
       		background-color: rgb(255,0,0);
@@ -66,8 +66,9 @@ html {height:100%;
 				   /*margin:auto;*/
 				   }
 
-				.sub {width: 180px;
-					  margin:10px auto; 
+				.sub {width: 120px;
+					  margin: 10px auto;
+					  display: inline-block; 
 					  border: 1px solid violet;
 					  font-size:2rem;
 					  color: gray;
@@ -88,9 +89,23 @@ html {height:100%;
 
 
 					/* - - - - android portrait - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-					@media only screen and (device-width: 540px) and (device-height: 960px)
+					/*asi es como funca */
+					/* - - - - android portrait - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+					/*@media only screen and (device-width: 360px) and (device-height: 640px)
 						{
 						  html {height:360px;
+					      		background-color: rgb(255,0,0);
+						 		}
+						 		*/
+
+						 		/*meter a .sub un width de 120px, o sea el acnho de esta vista dividido 5, y hacerlas inline-block*/
+					
+
+
+
+					@media only screen and (device-width: 360px) and (device-height: 640px)
+						{
+						  html {height:640px;
 					      		background-color: rgb(255,0,0);
 						 		}
 
@@ -117,7 +132,7 @@ html {height:100%;
 						   .contacto {/*border: 2px solid blue;
 									 margin-top:10px;
 									 text-align: center;  LO INVISIVILIZAMOS EN LANDSCAPE PUES POR EL EACOMODO RESULTANTE; NO SE VE; Y PASAMO LA DIRECCIpON AL SPAN "PAISAJE"*/
-									 display: none;
+									 display: block;
 									}
 
 
@@ -140,7 +155,7 @@ html {height:100%;
 /* - - - - 667 x 375 IPHONE678 landscape - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 @media only screen and (width: 667px) and  (height: 375px) 
 	{
-	  html {height:360px;
+	  html {height:375px;
       		background-color: rgb(255,0,0);
 	 		}
 
@@ -157,7 +172,8 @@ html {height:100%;
 				   /*margin:auto;*/
 				   }
 
-				.sub {width: 180px;
+				.sub {width: 120px;
+					  display:inline-block;
 					  margin:10px auto; 
 					  border: 1px solid green;
 					  font-size:2rem;
@@ -263,7 +279,8 @@ html {height:100%;
 				   /*margin:auto;*/
 				   }
 
-				.sub {width: 180px;
+				.sub {width: 120px;
+					  display: inline-block;
 					  margin:10px auto; 
 					  border: 1px solid green;
 					  font-size:2rem;
@@ -382,7 +399,7 @@ html {height:100%;
 
 
 
-	  html {height:568px;
+	  html {height:320px;
       		background-color: rgb(255,0,0);
 	 		}
 
@@ -402,10 +419,11 @@ html {height:100%;
 				   /*margin:auto;*/
 				   }
 
-				.sub {width: 280px;
+				.sub {width: 110px;
+					  display: inline-block; 
 					  margin:5px auto; 
 					  border: 1px solid green;
-					  font-size:2rem;
+					  font-size:1.5rem;
 					  color: gray;
 					  text-align: center;}
 
